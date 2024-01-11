@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEMOON</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- header start -->
+    <header class="absolute bg-white top-0 left-0 w-full z-10 flex items-center">
+        <div class="w-full ml-auto mr-auto px-[16px] py-[19px]">
+            <div class="relative flex justify-normal items-center">
+                <div class="flex flex-shrink-0 items-center mr-2">
+                    <img class="h-8 w-auto md:h-9" src="img/icon.jpg" alt="Your Company">
+                  </div>
+                <h1 class="text-xl font-bold md:text-4xl">COFFE<span class="text-red-900 font-serif">MOON</span></h1>
+            </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+    <!-- home start -->
+    <section id="home">
+        <div class="w-full relative h-screen">
+            <img src="img/bg.jpg" alt="background" class="w-full h-full absolute object-cover">
+            <div class="absolute top-0 left-0 w-full h-full bg-gray-900/50">
+                <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+                    
+                    <div class="flex flex-row justify-center self-center bg-red-900 h-57 p-1 rounded-3xl bg-opacity-40 border-4 border-black">
+                    <form action="#" class="max-w-96 mx-6 my-auto text-center mb-12 flex justify-between flex-wrap z-10 h-56 p-2 rounded-3xl">
+                        <img src="img/icon.jpg" alt="" class="mx-auto" width="80px" />
+                        <h1 class="text-center flex justify-center text-white text-4xl font-sans  md:text-5xl mt-3 mx-auto">COFFEMOON</h1>
+                        <p class="justify-center self-center text-white text-sm mb-m ">siliakan di isi Nama dan Emali untuk login terlebih dahulu sebelum melakukan teransaksi</p>
+                        <input type="text" placeholder="  Nama" class="w-42 rounded-xl border-2 border-black mt-2" required>
+                        <input type="email" placeholder="  Email" class="w-45 rounded-xl border-black border-2 mt-2" required>
+                        <input type="submit" class="justify-center self-center text-black font-semibold text-base border bg-white py-1 px-3 rounded-md border-black hover:bg-transparent hover:text-white hover:border-white transition duration-500 ease-in-out mx-auto  mt-2" placeholder="">
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- script JS -->
+    <script src="src/JS/script.js"></script>
+</body>
+</html>
