@@ -6,6 +6,9 @@ module.exports = {
       colors:{
         x:"#b91c1c"
       },
+      cursor: {
+        'fancy': 'url(hand.cur), pointer'
+      },
     },
   },
   plugins: [],
